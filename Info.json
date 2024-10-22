@@ -1,0 +1,30 @@
+{
+  "name": "pureiina",
+  "identifier": "com.pureiina",
+  "version": "1.0.0",
+  "description": "Script to get the timestamps and file path of the playing video, all within iina",
+  "author": {
+    "name": "Pure IINA",
+    "email": "liburdsam@gmail.com",
+    "url": "https://iina.io"
+  },
+  "entry": "dist/index.js",
+  "global": "dist/global.js",
+  "permissions": [
+    "file-system",
+    "show-alert",
+    "show-osd",
+    "network-request",
+    "video-overlay"
+  ],
+  "allowedDomains": [
+    "iina.io",
+    "*.iina.io"
+  ],
+  "preferencesPage": "pref.html",
+  "preferenceDefaults": {
+    "keyNum": 10,
+    "keyString": "hello",
+    "keyBool": true
+  }
+}
